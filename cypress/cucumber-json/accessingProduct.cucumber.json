@@ -1,0 +1,134 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validate accessing a Product",
+    "line": 1,
+    "id": "validate-accessing-a-product",
+    "tags": [],
+    "uri": "accessingProduct.feature",
+    "elements": [
+      {
+        "id": "validate-accessing-a-product;access-a-product-via-search",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Access a product via search",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "User navigates to the app URL",
+            "result": {
+              "status": "passed",
+              "duration": 4809000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "App loads successfully",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "text"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "MacBook"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 26,
+            "name": "Type a text in the search bar",
+            "result": {
+              "status": "passed",
+              "duration": 543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Click search",
+            "result": {
+              "status": "passed",
+              "duration": 3819000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "Change the category section to laptop desktop accessories",
+            "result": {
+              "status": "passed",
+              "duration": 3883000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Click search",
+            "result": {
+              "status": "passed",
+              "duration": 4603000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "Verify that the home page loads completely",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "nth",
+                      "text"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "1",
+                      "MacBook"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 33,
+            "name": "Verify that the nth result name matches with the search string",
+            "result": {
+              "status": "passed",
+              "duration": 294000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
